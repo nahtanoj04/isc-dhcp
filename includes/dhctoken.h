@@ -368,7 +368,8 @@ enum dhcp_token {
 	POOL6 = 669,
 	V6RELAY = 670,
 	V6RELOPT = 671,
-	PARSE_VENDOR_OPT = 672
+	PARSE_VENDOR_OPT = 672,
+	CLIENT_ADDRESS = 673
 };
 
 #define is_identifier(x)	((x) >= FIRST_TOKEN &&	\
